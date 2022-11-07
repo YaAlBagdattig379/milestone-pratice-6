@@ -11,6 +11,7 @@ const boudti = {
         price: 220
     },
     isRich: true,
+    // method 
     boudtiParty: function(expense,drink,cigarete){
         this.money = this.money-expense - drink -cigarete;
         console.log(this)
